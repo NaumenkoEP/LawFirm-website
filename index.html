@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Task</title>
+
+    <!-- Font Family -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Header Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Jquery Library Import -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="top">
+            <span style="cursor: pointer;" id="phonenums-button"><i class="fas fa-phone"></i> Телефоны для связи <i style="transition: 0.5s ease;" id="arrow" class="fas fa-caret-down"></i></span>
+            <span><i class="fas fa-map-marker-alt"></i> Улица: Пушкина 27 <i class="fas fa-caret-down"></i></span>
+            <span><i class="far fa-clock"></i> Режим работы <i class="fas fa-caret-down"></i></span>
+            <span><i class="far fa-envelope"></i> example@mail.ru</span>
+        </div>
+        <div class="phonenums-container">
+            <a href="tel:+7 (846) 300-44-11">+7 (846) 300-44-11</a> 
+            <a href="+7 (848) 222-90-41">+7 (848) 222-90-41</a>
+        </div>
+        <div class="bottom">
+            <div class="left-section">
+                <img src="img/logo.png">
+                <a style="text-decoration: none;">Lorem ipsum</a>
+                <a style="text-decoration: none;">Dolor sit amet</a>
+                <a style="text-decoration: none;">Donec sodales</a>
+            </div>
+            <button>Aenean commodo</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay-decoration"></div>
+        <div class="left">
+            <h1><span style="font-weight: 600;">Lorem ipsum dolor sit</span> <span style="font-weight: 400;">amet Aenean commodo</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit. Aenean commodo <br> <strong>ligula eget dolor</strong></p>
+            <button>Aenean commodo</button>
+            <p class="comment">Оставьте заявку на бесплатную консультацию</p>
+            <div class="dotted-pattern"></div>
+            <button class="mobile-version-button">Aenean commodo</button>
+        </div>
+        <div class="right">
+            <img src="https://s3-alpha-sig.figma.com/img/43ec/7e90/1593664af257acd98538bf136fd0fbd5?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=klJC1kQnCsFFbXPdQ8wRavmlO9~pDbQTHq0GyS-VZBxuLL3MoEV3ZVzmVfq7qYCMgQyY5Wel6~xsc~WI8cEccvVrCtWrqRoLu6XUAYvO4Hp7xkEnvQ3N3GjG~TEj-NAsYioS6IVG2H5dltv6z8QRcGwtKER~APCiGgIpA4OLmUBacXgHtjRBl-SPv4NsDSEiN0X6E-wGFprg4ka9NZKmLZICkEdvsEh7QxueZWBoSg4G1wjSxlacwxst08~Vb0~poF0HAr07sF-3bDZMYXcXFmN~8ksus98RTdOMSo0HPLWG2Y02z5nEgC8wRfvfCdDSICrtEG0r~xMRbOYUInz9rw__">
+            <div class="dotted-pattern"></div>
+        </div>
+    </section>
+
+    <section class="about">
+
+        <section class="top">
+                <h1 class="body-title">Lorem ipsum</h1>
+        
+                <div class="grid">
+
+                    <div>
+                        <div class="card type-long">
+                            <h3><span style="font-weight: 700; font-size: 36px;">01</span> <span style="font-weight: 300; font-size: 23px;">Lorem ipsum</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                        </div>
+
+                        <div class="card type-short">
+                            <h3><span style="font-weight: 700; font-size: 36px;">02</span> <span style="font-weight: 300; font-size: 23px;">Lorem ipsum</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula</p>
+                        </div>
+                    </div>
+
+        
+                    <div>
+                        <div class="card type-short">
+                            <h3><span style="font-weight: 700; font-size: 36px;">03</span> <span style="font-weight: 300; font-size: 23px;">Lorem ipsum</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula</p>
+                        </div>
+            
+                        <div class="card type-long">
+                            <h3><span style="font-weight: 700; font-size: 36px;">04</span> <span style="font-weight: 300; font-size: 23px;">Lorem ipsum</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula</p>
+                        </div>
+                    </div>
+
+                </div>        
+        </section>
+
+        <section class="bottom">
+            <h1 class="body-title">Dolor sit amet</h1>
+
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide grid">
+                        <div style="background-color: #b44cf2;position: relative;" class="card">
+                            <div class="img-container"><img src="img/protected-logo1.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                            <div class="dotted-pattern"></div>
+                        </div>
+                        <div style="background-color: #7879f9;" class="card auction1">
+                            <div class="img-container"><img src="img/auction-logo1.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                        <div style="background-color: #ff4faa;" class="card">
+                            <div class="img-container"><img src="img/legal-logo1.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide grid">
+                        <div style="background-color: #4b6bf2;position: relative;" class="card">
+                            <div class="img-container"><img src="img/protected-logo2.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                            <div class="dotted-pattern"></div>
+                        </div>
+                        <div style="background-color: #ff6f7c;" class="card">
+                            <div class="img-container"><img src="img/auction-logo2.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                        <div style="background-color: #ff4ff0;" class="card">
+                            <div class="img-container"><img src="img/legal-logo2.png"></div>
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <img src="img/arrow-left.png">
+                </div>
+                <div class="swiper-button-next">
+                    <img src="img/arrow-right.png">
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="products">
+        <h1 class="body-title">Donec Sodales</h1>
+        <div class="grid">
+            <div class="product">
+                <div class="info-container">
+                    <h1 style="font-size: 22px;">CURCUS NUNC</h1>
+                    <h1 style="color: #EF5DA8; font-size: 22px; margin: 0;">BLANDIT VEL</h1>
+                    <p>Curabitur ullamcorper</p>
+                    <div class="sizes-container">
+                        <div>46/48</div>
+                        <div>48/50</div>
+                        <div>50/52</div>
+                        <div>52/54</div>
+                    </div>
+                    <div class="buttons-container">
+                        <button class="type-1">Etiam</button>
+                        <button class="type-2">rhoncus</button>
+                    </div>
+                    <h1 style="color: #EF5DA8;" class="price-tag">999$</h1>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="info-container">
+                    <h1 style="font-size: 22px;">AUGUE VELIT</h1>
+                    <h1 style="color: #EF5DA8; font-size: 22px; margin: 0;">LUCTUS PULVINAR</h1>
+                    <p>Curabitur ullamcorper</p>
+                    <div class="sizes-container">
+                        <div>46/48</div>
+                        <div>48/50</div>
+                        <div>50/52</div>
+                        <div>52/54</div>
+                    </div>
+                    <div class="buttons-container">
+                        <button class="type-1">Etiam</button>
+                        <button class="type-2">rhoncus</button>
+                    </div>
+                    <h1 style="color: #EF5DA8;" class="price-tag">989$</h1>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="info-container">
+                    <h1 style="font-size: 22px;">BIBENDUM SODALES</h1>
+                    <h1 style="color: #EF5DA8; font-size: 22px; margin: 0;">HENDRERIT ID</h1>
+                    <p>Curabitur ullamcorper</p>
+                    <div class="sizes-container">
+                        <div>46/48</div>
+                        <div>48/50</div>
+                        <div>50/52</div>
+                        <div>52/54</div>
+                    </div>
+                    <div class="buttons-container">
+                        <button class="type-1">Etiam</button>
+                        <button class="type-2">rhoncus</button>
+                    </div>
+                    <h1 style="color: #EF5DA8;" class="price-tag">997$</h1>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="info-container">
+                    <h1 style="font-size: 22px;">BIBENDUM SODALES</h1>
+                    <h1 style="color: #EF5DA8; font-size: 22px;  margin: 0;">HENDRERIT ID</h1>
+                    <p>Curabitur ullamcorper</p>
+                    <div class="sizes-container">
+                        <div>46/48</div>
+                        <div>48/50</div>
+                        <div>50/52</div>
+                        <div>52/54</div>
+                    </div>
+                    <div class="buttons-container">
+                        <button class="type-1">Etiam</button>
+                        <button class="type-2">rhoncus</button>
+                    </div>
+                    <h1 style="color: #EF5DA8;" class="price-tag">777$</h1>
+                </div>
+            </div>
+        </div>
+        <section class="product-details-window">
+            <button class="cancel-button cancel-button-mobile-version"><img src="img/cancel-logo.png"></button>
+            <div class="pictures">
+                <div class="swiper swiper-2 ">
+                    <div class="swiper-wrapper swiper-wrapper-2">
+                        <div class="swiper-slide">
+                            <img src="img/product-details-img-1-1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/product-details-img-1-2.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/product-details-img-1-3.png">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-prev-2">
+                        <img src="img/arrow-left-2.png">
+                    </div>
+                    <div class="swiper-button-next swiper-button-next-2">
+                        <img src="img/arrow-right-2.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-container">
+                <h1 style="font-size: 32px; font-weight: 800;">Curcus nunc</h1>
+                <h1 style="font-size: 32px; font-weight: 800; color: #EF5DA8;">BLANDIT VEL</h1>
+                <p style="font-size: 16px;">
+                    vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus 
+                    elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor 
+                    eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
+                    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. 
+                    Aenean imperdiet. Etiam ultricies nisi vel augue.
+                    <br>
+                    <h4 style="font-weight: 800;">Donec vitae</h4>
+                    <ul>
+                        <li>Maecenas nec odio et ante tincidunt tempus. </li>
+                        <li>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</li>
+                        <li>Etiam sit amet orci eget eros faucibus tincidunt.</li>
+                        <li>Donec sodales sagittis magna. Sed </li>
+                    </ul>
+                </p>
+                <div class="sizes-container">
+                    <h4>Доступные Размеры</h4>
+                    <div class="sizes-grid">
+                        <div style="border: 2px solid black;">46/48</div>
+                        <div>48/50</div>
+                        <div>50/52</div>
+                        <div>52/54</div>
+                        <div style="border: none; display: flex; align-items: center;">
+                            <span style="margin-right: 5px; font-size: 10px;">Кол-во</span>
+                            <div>- 1 +</div>
+                        </div>
+                    </div>
+                    <button>Etiam</button>
+                </div>
+            </div>
+            <button class="cancel-button"><img src="img/cancel-logo.png"></button>
+        </section>
+        <section class="try-on">
+            <div class="cancel-button-container">
+                <button class="cancel-button"><img src="img/cancel-logo.png"></button>
+            </div>
+            <h1>AENEAN MASSA</h1>
+            <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                Donec quam felis, ultricies nec, pellentesque
+            </p>
+            <div class="input-container">
+                <h4>ИМЯ</h4>
+                <input placeholder="Ваше имя" type="text">
+            </div>
+            <div class="input-container">
+                <h4>НОМЕР ТЕЛЕФОНА</h4>
+                <input placeholder="+7 (123) 456-78-90" type="text">
+            </div>
+            <p style="font-weight: 400; font-size: 9px; width: 321px;">
+                Нажимая кнопку "Записаться", я даю свое согласие на обработку персональных данных 
+                и принимаю условия <a>Пользовательского соглашения</a> 
+            </p>
+            <button>ETIAM</button>
+        </section>
+    </section>
+    <footer>
+        <div class="description">
+            <div class="img-container">
+                <img src="img/logo.png">
+            </div>
+            <p>
+                Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. 
+                Jinesade bel när feras redorade i belogi. FAR paratyp i muvåning, och 
+                pesask vyfisat. Viktiga poddradio har un mad och inde. 
+            </p>
+            <div class="socialmedia-links">
+                <a><img src="img/facebook-logo.png"></a>
+                <a><img src="img/twitter-logo.png"></a>
+                <a><img src="img/instagram-logo.png"></a>
+            </div>
+            <p>© ООО “Lorem ipsum dolor”, 2023. Все права защищены.</p>
+        </div>
+        <div class="links-container">
+            <h3 style="margin-bottom: 10px;">Page</h3>
+            <a style="color: #FFFFFF; text-decoration: none;">Lorem ipsum</a>
+            <a style="color: #FFFFFF; text-decoration: none;">Dolor sit amet</a>
+            <a style="color: #FFFFFF;text-decoration: none;">Donec sodales</a>
+        </div>
+        <div class="map-container">
+            <h3>Maps Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956.2478658139815!2d-73.56818993201168!3d45.50160756951187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a449064fc07%3A0x55d88a76ad3dcfe1!2s2%2F5%20Pl.%20Monseigneur%20Charbonneau%20Suit%20106%2C%20Montreal%2C%20QC%20H3B%204E5%2C%20Canada!5e1!3m2!1sen!2sgr!4v1742928547226!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </div>
+        <div class="spm-container">
+            <img src="img/spm-logo.png">
+        </div>
+    </footer>
+</body>
+
+<!-- Main Script To Handle HTML Content -->
+<script src="script.js"></script>
+</html>
